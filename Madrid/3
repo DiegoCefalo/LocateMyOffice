@@ -1,0 +1,3313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c12972a6a86b43db9d515f2551e94c24 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c12972a6a86b43db9d515f2551e94c24" ></div>
+        
+</body>
+<script>    
+    
+            var map_c12972a6a86b43db9d515f2551e94c24 = L.map(
+                "map_c12972a6a86b43db9d515f2551e94c24",
+                {
+                    center: [40.4168, -3.7038],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_974c4d1b2d4748d78b4f13969b228a9b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var feature_group_a04194731e55404dbb5bf751620b04bc = L.featureGroup(
+                {}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var circle_e5eac81450d34416a3f7f134a3644221 = L.circle(
+                [40.42231841389461, -3.7060473848532434],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_e5eac81450d34416a3f7f134a3644221.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>VEGA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_342478fcf3e34035afcf63da38854b5f = L.circle(
+                [40.423474938716694, -3.700036508653173],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_342478fcf3e34035afcf63da38854b5f.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>La Hummuseria
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6df2e700d58d4a329d3b39efe4875bb1 = L.circle(
+                [40.423935, -3.6971583],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_6df2e700d58d4a329d3b39efe4875bb1.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Bunny's Deli
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_58229ca89b1f40f481f7582a07d75fc8 = L.circle(
+                [40.410671971184456, -3.7059818747088813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_58229ca89b1f40f481f7582a07d75fc8.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>La Encomienda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_94c8e429f4a447ca981f5220f989e831 = L.circle(
+                [40.40697203771007, -3.6996788206851368],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_94c8e429f4a447ca981f5220f989e831.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Distrito Vegano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_725f0fc0535545ed80223ab2a0bdbe11 = L.circle(
+                [40.42482121229684, -3.71585210102297],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_725f0fc0535545ed80223ab2a0bdbe11.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Punto Vegano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d11b1797ef084d71a5db66438ff291dc = L.circle(
+                [40.41263019326825, -3.7116827479753303],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_d11b1797ef084d71a5db66438ff291dc.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Viva Burger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5cb05b2491b24538874e3b90de95824b = L.circle(
+                [40.42192131756878, -3.703401891727494],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_5cb05b2491b24538874e3b90de95824b.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>B13 Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b8693be313454bcca7444b8020270fac = L.circle(
+                [40.42201400548159, -3.706108026089968],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_b8693be313454bcca7444b8020270fac.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Chilling Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1252f981c7df4a5cb4165ba54caeb432 = L.circle(
+                [40.41573017435576, -3.6776411533355713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_1252f981c7df4a5cb4165ba54caeb432.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Levél Veggie Bistro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e02522f610024f78b5a2f0a3988a4206 = L.circle(
+                [40.41020847303393, -3.709029348112721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_e02522f610024f78b5a2f0a3988a4206.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>pura vida vegan bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_097d86fff4144b98bb0ec69c75dc4185 = L.circle(
+                [40.41898312431423, -3.7093189081686093],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_097d86fff4144b98bb0ec69c75dc4185.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Sanissimo Opera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_18f6af56c2c54df7894c51572c72d8c1 = L.circle(
+                [40.42327219098249, -3.69815135043315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_18f6af56c2c54df7894c51572c72d8c1.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Restaurante Vegaviana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fbafc476d3554ff3a85f814f07820608 = L.circle(
+                [40.424572, -3.6955872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_fbafc476d3554ff3a85f814f07820608.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Roots
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3d381aebfde9487dab5542a24ac24546 = L.circle(
+                [40.419167432049, -3.7066323369647884],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_3d381aebfde9487dab5542a24ac24546.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>AbonaVida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bf9dd28dae504a23a398444182810285 = L.circle(
+                [40.41636510723989, -3.707727242398462],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_bf9dd28dae504a23a398444182810285.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Restaurante Yerbabuena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b5692487c2a04f369a60786959a85238 = L.circle(
+                [40.423075, -3.695536],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_b5692487c2a04f369a60786959a85238.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Ohanasana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1e26af895ae041afb6028435cce89e69 = L.circle(
+                [40.41426309392643, -3.699027746915817],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_1e26af895ae041afb6028435cce89e69.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>REINETA vegetariano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7b57437e29314d0fa32676b3fa02f7d4 = L.circle(
+                [40.412891557155, -3.7134861946105957],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_7b57437e29314d0fa32676b3fa02f7d4.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Gauranga Trascendental Food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4f92bb73bb1243ab98ea1b42c4eff27c = L.circle(
+                [40.424512747185425, -3.683114294018983],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_4f92bb73bb1243ab98ea1b42c4eff27c.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Swagat Indian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b86c85b8dab40fe9a65af07128bb1dc = L.circle(
+                [40.425529, -3.702859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_2b86c85b8dab40fe9a65af07128bb1dc.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Pizzi & Dixie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3df709b5c9f94471b9da6a19d182b389 = L.circle(
+                [40.42694912512703, -3.7100989203246573],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_3df709b5c9f94471b9da6a19d182b389.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Delish Vegan Doughnuts
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1773a15f826e4759846e9c7f0432fb19 = L.circle(
+                [40.42576925527874, -3.7037213722417723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_1773a15f826e4759846e9c7f0432fb19.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Sanissimo, Healthy Fast Food
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bb231fb294dc42469235b5c2d3ddbf4b = L.circle(
+                [40.426422523837424, -3.704948732827842],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_bb231fb294dc42469235b5c2d3ddbf4b.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>¡Ay mi Madre!
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_13cb64ab432e4dd1be000080489dd311 = L.circle(
+                [40.411153173926415, -3.6949271742195737],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_13cb64ab432e4dd1be000080489dd311.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>La Quietud Tiyoweh
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_91b97cfc3fd84fd4b00b9e074f06df26 = L.circle(
+                [40.425289, -3.703828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_91b97cfc3fd84fd4b00b9e074f06df26.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Avocado Love
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f5a2dfe766e84af0856912d1d09180d9 = L.circle(
+                [40.41345252081898, -3.7283487581467334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_f5a2dfe766e84af0856912d1d09180d9.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>El Triángulo de las Verduras
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d8c276741c1d4079967cc5151884fa8f = L.circle(
+                [40.428808, -3.681333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_d8c276741c1d4079967cc5151884fa8f.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Planet Organic Food&Life
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ba0d84088a784300b4050dc72ea0cfd7 = L.circle(
+                [40.41236, -3.6939151],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_ba0d84088a784300b4050dc72ea0cfd7.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>El Fogón Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f9bad5747764ce29449ec464e07bdb0 = L.circle(
+                [40.42854342009319, -3.703335598275125],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_5f9bad5747764ce29449ec464e07bdb0.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Superchulo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c5a6b65cbbb948aeaeff75dc2b16e714 = L.circle(
+                [40.44285769821922, -3.704663591001051],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_c5a6b65cbbb948aeaeff75dc2b16e714.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>EcoCentro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd447cef1ef64151b487b6e2a177483f = L.circle(
+                [40.43013, -3.704106],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_fd447cef1ef64151b487b6e2a177483f.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Abolea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3612b03e4d6e41a88d7878f3f03cac2f = L.circle(
+                [40.42535776918096, -3.703822597034397],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_3612b03e4d6e41a88d7878f3f03cac2f.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>El Restaurante Vegetariano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_51123294587c4d3682d0dd6f34c78792 = L.circle(
+                [40.432189, -3.702132],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_51123294587c4d3682d0dd6f34c78792.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Llantén Veggiebar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4078e17860b2431a95bcaa4341ee87cc = L.circle(
+                [40.423449262141645, -3.69254024923133],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_4078e17860b2431a95bcaa4341ee87cc.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>La Galette 2 - Casa Escondida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d0c095c3c4054455a9b0d76db4f9dc8c = L.circle(
+                [40.4279921776143, -3.7056230979165905],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_d0c095c3c4054455a9b0d76db4f9dc8c.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Crucina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f2355c30732b436a8305d3c191f1fb29 = L.circle(
+                [40.41268990000449, -3.7033725873476895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_f2355c30732b436a8305d3c191f1fb29.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Yatiri
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b3c6cebc5564b778a382b0a4df7fe24 = L.circle(
+                [40.42401204407034, -3.7093376058574345],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_2b3c6cebc5564b778a382b0a4df7fe24.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Loving Hut
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3b1fb36fa0ed450b96717e76fcef33c5 = L.circle(
+                [40.41923582045233, -3.7030588374731335],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_3b1fb36fa0ed450b96717e76fcef33c5.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Artemisa Tres Cruces
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_83162578b13b44ce98617f27f5cb650b = L.circle(
+                [40.412548866196914, -3.7089612913940404],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_83162578b13b44ce98617f27f5cb650b.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Restaurante Emma y Julia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e8a064e935124e1e921f95ab72c93667 = L.circle(
+                [40.41603226767338, -3.6988907186036735],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_e8a064e935124e1e921f95ab72c93667.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Artemisa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f82cfcb3e29c4fd7af032c7197a68117 = L.circle(
+                [40.43922387114754, -3.700570914401032],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_f82cfcb3e29c4fd7af032c7197a68117.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Elektra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ec7e774596dd43b5ae5ecb777ef91481 = L.circle(
+                [40.419350446235, -3.7016930588954],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_ec7e774596dd43b5ae5ecb777ef91481.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Lemongrass Montera / Restaurante tailandés Madrid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ff355c1ea6a14033b1cd62d6394ae528 = L.circle(
+                [40.44812583252388, -3.6724867673868737],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_ff355c1ea6a14033b1cd62d6394ae528.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Sopa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bb35ef61befe45d0bfd93fedff9a25da = L.circle(
+                [40.413146799674514, -3.698243700199329],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_bb35ef61befe45d0bfd93fedff9a25da.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>La Biotika
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f255631ddeba478c930df864bcb2933c = L.circle(
+                [40.40932203535789, -3.6998114404276556],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_f255631ddeba478c930df864bcb2933c.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>la oveja negra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_14e151523a06415ea75789f9fa983c7e = L.circle(
+                [40.422203, -3.7057967],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_14e151523a06415ea75789f9fa983c7e.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Freedom Cakes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_64a80e95a000405baa5c17593da515b4 = L.circle(
+                [40.436493, -3.796778],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_64a80e95a000405baa5c17593da515b4.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Restaurante vegetariano Carpo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f67a77c4b1ed401995d8a1325c849bb4 = L.circle(
+                [40.416771272733534, -3.697087948870176],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_f67a77c4b1ed401995d8a1325c849bb4.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Al Natural
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_02a3836f4a964933b2255c1943c62eb9 = L.circle(
+                [40.463523477397636, -3.6911326646804805],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_02a3836f4a964933b2255c1943c62eb9.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Naked & Sated
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_35af8df98b294a33a312249b3c902ba3 = L.circle(
+                [40.41294155364761, -3.711641905728988],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_35af8df98b294a33a312249b3c902ba3.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>El Estragón Vegetariano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d24922dc3e074c1197af4218180b278c = L.circle(
+                [40.4207436951422, -3.7048809200424286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_d24922dc3e074c1197af4218180b278c.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Shi-Shang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9653dd6541a04c9a96d9a39db10003b0 = L.circle(
+                [40.41320460813003, -3.696435200654139],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_9653dd6541a04c9a96d9a39db10003b0.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Viva la Vida: Comida Vegetariana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a812f5c3743848b5b1e5115d5e95c0f4 = L.circle(
+                [40.423633, -3.709178],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_a812f5c3743848b5b1e5115d5e95c0f4.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Vega Álamo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7eb5ceff099a4782b55f1833c102cc58 = L.circle(
+                [40.40416, -3.6919823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_7eb5ceff099a4782b55f1833c102cc58.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Empatía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4ce6746c162b408785c3c771aed49f38 = L.circle(
+                [40.422761, -3.723319],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_4ce6746c162b408785c3c771aed49f38.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Sanissimo Principe Pío
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a8b7f7fa762c482594fb60bc0c24bc89 = L.circle(
+                [40.41680638224343, -3.6955923030698044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_a8b7f7fa762c482594fb60bc0c24bc89.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Q'comes?
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ce84b0a97054ba285441e76357a2088 = L.circle(
+                [40.428914, -3.687266],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_6ce84b0a97054ba285441e76357a2088.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Honest Greens
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0a334efb8d5f4c06b03a63dc0506b1be = L.circle(
+                [40.42603396100617, -3.6841320991516113],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_0a334efb8d5f4c06b03a63dc0506b1be.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Fit Food Velázquez 39
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1a577494d37747ea9f0992dc7159e393 = L.circle(
+                [40.42429452344103, -3.724915536264086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_1a577494d37747ea9f0992dc7159e393.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>El Vergel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5cefcb549bec41f3adab833f5e945242 = L.circle(
+                [40.4267717, -3.6988569000000098],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_5cefcb549bec41f3adab833f5e945242.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>LA COCINA DE SEVE
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9dd476c74f0f4c9da7bc26f1579ef633 = L.circle(
+                [40.43584381433536, -3.672426984943857],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_9dd476c74f0f4c9da7bc26f1579ef633.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Swagat II Indian Restaurant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_36479933b5b847d293353b80214f89c9 = L.circle(
+                [40.43611976987079, -3.7025642395019536],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_36479933b5b847d293353b80214f89c9.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Ambrosía healthy FOOD
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_deffb753d9634705926df4e0f05e5762 = L.circle(
+                [40.423412355084764, -3.6756471459774516],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_deffb753d9634705926df4e0f05e5762.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Fresc Co
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b74edf0ad5a24a789bf50ba629ab92fe = L.circle(
+                [40.450094, -3.691716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_b74edf0ad5a24a789bf50ba629ab92fe.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Flax & Kale
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7dc99c426f6942f382f78546bff9f3c9 = L.circle(
+                [40.45314883, -3.70974127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_7dc99c426f6942f382f78546bff9f3c9.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Hakuna Matata Veggie
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2c3675ab1dce40f899e2bf5b4775b38c = L.circle(
+                [40.3864642, -3.7351602],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_2c3675ab1dce40f899e2bf5b4775b38c.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>SANO PLACER
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_58335130a2a24aec8194ea6a02ba0473 = L.circle(
+                [40.47937636073968, -3.708018510578929],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_a04194731e55404dbb5bf751620b04bc);
+        
+    
+            circle_58335130a2a24aec8194ea6a02ba0473.bindTooltip(
+                `<div>
+                     <b>Vegan restaurant: <br></b>Salad & Co.
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_f17542e631624d4bb7de21a08c2f9c2c = L.featureGroup(
+                {}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var circle_6fac387abcb940b08bae95efe1bc838d = L.circle(
+                [40.42075183549848, -3.6993145297210788],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_6fac387abcb940b08bae95efe1bc838d.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Room Mate Oscar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dfed64fcf0454f0b95e913de6e3555fb = L.circle(
+                [40.42014039388448, -3.702886033408268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_dfed64fcf0454f0b95e913de6e3555fb.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Gran Vía 30
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_017dfa979c37437681dc0017e81f17cd = L.circle(
+                [40.42906874005007, -3.7150786671568476],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_017dfa979c37437681dc0017e81f17cd.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Princesa 40
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d07681999e3d430d9e556741a4f1135e = L.circle(
+                [40.419667845686355, -3.7061354223688325],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_d07681999e3d430d9e556741a4f1135e.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Preciados 27
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_93ad3b2a939c440cad68b5e0a71bfa36 = L.circle(
+                [40.418038185194774, -3.699371513099982],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_93ad3b2a939c440cad68b5e0a71bfa36.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Alcalá 21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a4c3228f68af4ca7a67312b93863f38d = L.circle(
+                [40.39130385405477, -3.701122858987979],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_a4c3228f68af4ca7a67312b93863f38d.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Plaza Río 2
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_667d2d9f216540d9b1d62ade65b880e4 = L.circle(
+                [40.423112989750564, -3.700798408458431],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_667d2d9f216540d9b1d62ade65b880e4.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Fuencarral 43
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e163ddc150f44a39a83a65351e831339 = L.circle(
+                [40.423319643246955, -3.710882844657412],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_e163ddc150f44a39a83a65351e831339.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Plaza de España
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ac128b0799ec4b4e8a630d78de66471b = L.circle(
+                [40.421751918201934, -3.7083782102926905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_ac128b0799ec4b4e8a630d78de66471b.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Gran Vía 58
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c9b7fb67608241478ef18b9cfc01a0fe = L.circle(
+                [40.418054, -3.710009],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_c9b7fb67608241478ef18b9cfc01a0fe.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e87d715117924081830f395c08445038 = L.circle(
+                [40.41532327347708, -3.6949486687744146],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_e87d715117924081830f395c08445038.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d8d3027a39964e9b9d9487d7d1f2a707 = L.circle(
+                [40.41719516711848, -3.706118548830636],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_d8d3027a39964e9b9d9487d7d1f2a707.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Arenal 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8b21e45d047c43b18b284e53964a2632 = L.circle(
+                [40.4335639178076, -3.6868293595360973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_8b21e45d047c43b18b284e53964a2632.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Serrano, 100
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_601857f709644b57aefdb0a88c3890aa = L.circle(
+                [40.44748872381242, -3.6930934929855574],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_601857f709644b57aefdb0a88c3890aa.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks ECI Castellana (Starbucks)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0f64b13380447188841796a71c9455c = L.circle(
+                [40.426066801136066, -3.6756167469058876],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_b0f64b13380447188841796a71c9455c.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Conde de Peñalver
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6ab8f948df184c5292bf8ba5c9e4a5c0 = L.circle(
+                [40.4174674, -3.7043957],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_6ab8f948df184c5292bf8ba5c9e4a5c0.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks ECI Preciados
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8040b5f568184b928e209f9848d15a15 = L.circle(
+                [40.43296760669224, -3.6832201480865474],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_8040b5f568184b928e209f9848d15a15.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Juan Bravo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_decb8b6d5474460e919e77fd1b5c6194 = L.circle(
+                [40.417539, -3.702775],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_decb8b6d5474460e919e77fd1b5c6194.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ae33acc13e7b406681553774b4ea9488 = L.circle(
+                [40.421949993513195, -3.7203776278003375],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_ae33acc13e7b406681553774b4ea9488.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Príncipe Pío
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7eb2f8872d954cd1b7d6e79752fca15b = L.circle(
+                [40.425760357264515, -3.691781759262085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_7eb2f8872d954cd1b7d6e79752fca15b.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Génova 27
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6f0e5036b4b84ff2bf517694d88b5f6b = L.circle(
+                [40.40885214578761, -3.693236539287397],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_6f0e5036b4b84ff2bf517694d88b5f6b.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Reina Sofia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9b8dcf757f244650a1958a3e3f39e499 = L.circle(
+                [40.420450975922165, -3.6796733064135796],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_9b8dcf757f244650a1958a3e3f39e499.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_87bc0d674b994a0792029aacfcfe66f7 = L.circle(
+                [40.39469, -3.676454],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_87bc0d674b994a0792029aacfcfe66f7.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks ECI Méndez Álvaro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a69bae1b964b42ea8cadfd342e72bda2 = L.circle(
+                [40.43816816158585, -3.793838131943415],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_a69bae1b964b42ea8cadfd342e72bda2.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Pozuelo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_035414577f3a4c50a1d04e2ac96748c4 = L.circle(
+                [40.418106483857194, -3.709606077515513],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_035414577f3a4c50a1d04e2ac96748c4.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Teatro Real
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b358c6a9f8e14c938d952964af37d9dc = L.circle(
+                [40.44772869759542, -3.6951754717412046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_b358c6a9f8e14c938d952964af37d9dc.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Orense 6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ba8af16649564dee875bda2a73fbd289 = L.circle(
+                [40.433353, -3.703958],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_ba8af16649564dee875bda2a73fbd289.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Quevedo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9b074ff3263c414fb6ce5eb7dfdebe0a = L.circle(
+                [40.47963598026618, -3.707357285899872],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_9b074ff3263c414fb6ce5eb7dfdebe0a.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks CC La Vaguada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3ff6cb8615874d23a51a965352fc6681 = L.circle(
+                [40.44677599194058, -3.6918291111629657],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_3ff6cb8615874d23a51a965352fc6681.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9e83cefc81a54bb2b11edb565122b60d = L.circle(
+                [40.46282268242124, -3.636758032267253],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_9e83cefc81a54bb2b11edb565122b60d.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks CC Dreams
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_500963973b53460481fd39a55f04631f = L.circle(
+                [40.41748942152583, -3.70466514037747],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_500963973b53460481fd39a55f04631f.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2c7d30452b744fbcb3aa599795ceb6de = L.circle(
+                [40.424974636524, -3.684107212216363],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_2c7d30452b744fbcb3aa599795ceb6de.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Velázquez, 32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_72e08d8f8755443396c15b92f3ccf9fd = L.circle(
+                [40.49768721643861, -3.660368141302403],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_72e08d8f8755443396c15b92f3ccf9fd.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks ECI Sanchinarro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_519ca2cbafc743f8a76d9366eeb80421 = L.circle(
+                [40.4394314443529, -3.6826531171468173],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_519ca2cbafc743f8a76d9366eeb80421.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Velázquez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5617431fd9cf45dc8673798581e7e513 = L.circle(
+                [40.403120577140534, -3.687687685586035],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_5617431fd9cf45dc8673798581e7e513.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1214111736ac472abd6bd65fe413f608 = L.circle(
+                [40.41888867283295, -3.800662722672292],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_1214111736ac472abd6bd65fe413f608.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks La Finca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_befe987ba05948dea38280191579f87f = L.circle(
+                [40.3393318306369, -3.7333420586110004],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_befe987ba05948dea38280191579f87f.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Parquesur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a9251243c7874c9791e4c3fe2fc0fea9 = L.circle(
+                [40.41573297582015, -3.708717822655616],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_a9251243c7874c9791e4c3fe2fc0fea9.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks San Miguel
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e2f167c94704658a4c8421d74baa464 = L.circle(
+                [40.36350271226119, -3.7365511407333716],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_7e2f167c94704658a4c8421d74baa464.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks CC Islazul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8094e097517e4d1bb31bcbed97cd3aff = L.circle(
+                [40.421095, -3.70256],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_8094e097517e4d1bb31bcbed97cd3aff.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4285be2d8cb547d8972e9eec5bc82905 = L.circle(
+                [40.414995, -3.695058],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_4285be2d8cb547d8972e9eec5bc82905.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks Palace
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a8678f5d8785419caa9f7907b6969a21 = L.circle(
+                [40.440273, -3.682125],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_f17542e631624d4bb7de21a08c2f9c2c);
+        
+    
+            circle_a8678f5d8785419caa9f7907b6969a21.bindTooltip(
+                `<div>
+                     <b>Starbucks: <br></b>Starbucks
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_ac130789e38a49d9ad07f935566f1a2d = L.featureGroup(
+                {}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var circle_26a833ffcdea4b3cb5b9135ebee23059 = L.circle(
+                [40.41134530393576, -3.6948957680172216],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_26a833ffcdea4b3cb5b9135ebee23059.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>Erase Una Vez
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_90a4b5bd9d17457d9f6d52653bf22513 = L.circle(
+                [40.385226, -3.70499760000007],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_90a4b5bd9d17457d9f6d52653bf22513.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>El Planeta Ilusión
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6457b424dec44651a931a8f7eebb7741 = L.circle(
+                [40.428935679810714, -3.6500145757605393],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_6457b424dec44651a931a8f7eebb7741.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>Escuela Infantil Lázaro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_19f999d0c1e748b3b7c4d6d0a71fc80b = L.circle(
+                [40.45928143, -3.69540857],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_19f999d0c1e748b3b7c4d6d0a71fc80b.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>FAMILIA Y DEPENDENCIA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4e564a7aae1f41df8f95865caca4a181 = L.circle(
+                [40.3808675, -3.7086286],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_4e564a7aae1f41df8f95865caca4a181.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>Escuela infantil La Cometa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dc2accaaa5a54eba9e89e429f11261e5 = L.circle(
+                [40.4521305, -3.7962104000000636],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_ac130789e38a49d9ad07f935566f1a2d);
+        
+    
+            circle_dc2accaaa5a54eba9e89e429f11261e5.bindTooltip(
+                `<div>
+                     <b>Daycare: <br></b>Residencia Casa Jardín
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_d77290706e8e449e9a42e7a6a40e4c1e = L.featureGroup(
+                {}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var circle_34ab881b962541a493df1a0bb818e9aa = L.circle(
+                [40.417776, -3.708287],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_34ab881b962541a493df1a0bb818e9aa.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Steakburger Arenal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_71e12281c91a4df6a21ddd821d68f6e6 = L.circle(
+                [40.41719516711848, -3.706118548830636],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_71e12281c91a4df6a21ddd821d68f6e6.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Starbucks Arenal 14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_539cc42ed26042c0aa17bcbceaf512f4 = L.circle(
+                [40.41650917414249, -3.7051496261000008],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_539cc42ed26042c0aa17bcbceaf512f4.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Café Teatro Arenal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1396c9ccbf0b483981fcfc6afc0e6e3d = L.circle(
+                [40.44640332656783, -3.6892827878105403],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_1396c9ccbf0b483981fcfc6afc0e6e3d.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>El reloj de Arena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b394efa70abe4b028791f3d1c92161c6 = L.circle(
+                [40.41707293171189, -3.702734175175791],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_b394efa70abe4b028791f3d1c92161c6.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Desigual Arenal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fd3cb91d567d4acfbe6405d196a3fa6d = L.circle(
+                [40.41654335170846, -3.7053431091397524],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_fd3cb91d567d4acfbe6405d196a3fa6d.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Teatro Arenal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c3d4066769634d9e9b5c03374b348c6e = L.circle(
+                [40.38619044427085, -3.7390530109405518],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_c3d4066769634d9e9b5c03374b348c6e.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Palacio Vistalegre Arena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9fc81edc964447c6bb3a46299bf5834c = L.circle(
+                [40.424721493795, -3.7121660684088784],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_9fc81edc964447c6bb3a46299bf5834c.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Sala Arena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0a13e564359948329d8f1677623ec0e8 = L.circle(
+                [40.416972194176466, -3.705221711103812],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_0a13e564359948329d8f1677623ec0e8.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Pronovias Madrid Arenal - Vestidos de Novia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fbee54e5e0a14bf18929d4c39a75eeb5 = L.circle(
+                [40.41714642868766, -3.704874836210067],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_fbee54e5e0a14bf18929d4c39a75eeb5.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Farmacia Arenal 2 (Antigua Farmacia Gayoso)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7e0cb79229ea4cedac9d4bba4e8109d3 = L.circle(
+                [40.43064202740694, -3.690755320683636],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_7e0cb79229ea4cedac9d4bba4e8109d3.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Arena Quantum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_399f8eba07044dc0893791544e90436a = L.circle(
+                [40.43069837993385, -3.6906849888284983],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_399f8eba07044dc0893791544e90436a.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Arena Media Comunications
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3aad4a2dddf24fec8557a4a78a6499d4 = L.circle(
+                [40.41305493405456, -3.738248348236084],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_d77290706e8e449e9a42e7a6a40e4c1e);
+        
+    
+            circle_3aad4a2dddf24fec8557a4a78a6499d4.bindTooltip(
+                `<div>
+                     <b>Basketball arena: <br></b>Madrid Arena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_c790d0bef4db4129add8bf5cfb45ac35 = L.featureGroup(
+                {}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+    
+            var circle_e896d7fcbb8d4b8586319f706ca786f2 = L.circle(
+                [40.413811807653936, -3.6956569729216513],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e896d7fcbb8d4b8586319f706ca786f2.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Dolores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5648b2069cd14e1ab9f41dc14abe170a = L.circle(
+                [40.421361, -3.69873],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_5648b2069cd14e1ab9f41dc14abe170a.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Entre Santos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3bfb6b45bdc64f2ca6b04d6854941b11 = L.circle(
+                [40.42587927392769, -3.7047823256126224],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_3bfb6b45bdc64f2ca6b04d6854941b11.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Casa Macareno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_50114d7cf4e047d59285155b05fd2937 = L.circle(
+                [40.4137, -3.6997814],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_50114d7cf4e047d59285155b05fd2937.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Imperfecto
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_73689c875f984e9a9c35eacba42f178a = L.circle(
+                [40.41002072974436, -3.6970542500265093],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_73689c875f984e9a9c35eacba42f178a.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Más Al Sur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6e1e0035794042ceb101efeea59d0ba1 = L.circle(
+                [40.40929390425653, -3.7118810249077194],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_6e1e0035794042ceb101efeea59d0ba1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Almacén de Vinos - Casa Gerardo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_474d395168244965b0c805129fcab826 = L.circle(
+                [40.425528070722606, -3.701904890513431],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_474d395168244965b0c805129fcab826.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Freeway
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e072e41e38df4898b1af081b6d7f2ee1 = L.circle(
+                [40.41924121529476, -3.707470367575049],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e072e41e38df4898b1af081b6d7f2ee1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Cerveceria Erte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_23741fe7acf94bdeba85ec1079b2e07a = L.circle(
+                [40.41371861297169, -3.6993944253541087],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_23741fe7acf94bdeba85ec1079b2e07a.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Sur De Huertas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_404034edf96c438da76bbc90ebcaabb9 = L.circle(
+                [40.42048956897378, -3.7125987427603233],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_404034edf96c438da76bbc90ebcaabb9.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Mi Venta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_76a2d241d8f84e589d092c6718aefa4d = L.circle(
+                [40.41159759840829, -3.6996274045843887],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_76a2d241d8f84e589d092c6718aefa4d.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Colmo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6398017906b04d129fa60c8c6429f4c9 = L.circle(
+                [40.425417248365285, -3.700183383392106],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_6398017906b04d129fa60c8c6429f4c9.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Limbo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_37c515ff9c20438384608dbc6c6d1863 = L.circle(
+                [40.4105244385695, -3.710317211965421],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_37c515ff9c20438384608dbc6c6d1863.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Pajaritos Mojados
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_379531900f8c476aa9474b368c9009cb = L.circle(
+                [40.414474, -3.7015262],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_379531900f8c476aa9474b368c9009cb.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Radio Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ec5c7f7fdda846549351ab8bc1bac9df = L.circle(
+                [40.418759922436905, -3.6967134321412187],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_ec5c7f7fdda846549351ab8bc1bac9df.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Café Circulo de Bellas Artes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ff1a4073c27744fa9d1ede133e2ee6fb = L.circle(
+                [40.40930003000816, -3.711393579775465],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_ff1a4073c27744fa9d1ede133e2ee6fb.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Sixta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b6230ceef3384ee09e55d7fa68620924 = L.circle(
+                [40.408898827011285, -3.699293266071816],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_b6230ceef3384ee09e55d7fa68620924.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Chinaski Lavapiés
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_896408354a934d21ae2ee1c9e40d7634 = L.circle(
+                [40.42426061399935, -3.706602068336985],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_896408354a934d21ae2ee1c9e40d7634.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>1862
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a8f86703f8e448d7bea9bfb006144396 = L.circle(
+                [40.4118, -3.6996272],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_a8f86703f8e448d7bea9bfb006144396.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Lamiak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f5311273a4e442a181eafd3f659a5311 = L.circle(
+                [40.428056117541274, -3.709507857941393],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_f5311273a4e442a181eafd3f659a5311.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Muy Placer en Conserva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c29e9e1d982c41eabbfcdedd7bcb5a9d = L.circle(
+                [40.413029716325006, -3.697696668986562],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_c29e9e1d982c41eabbfcdedd7bcb5a9d.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Dos Gardenias
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_89fd606d3e394757876a39eed7645c6c = L.circle(
+                [40.410658, -3.697932],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_89fd606d3e394757876a39eed7645c6c.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Taberna de Espronceda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_089b727d4cea4c3cb492ce966bb139ef = L.circle(
+                [40.41205006504069, -3.7098849314556746],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_089b727d4cea4c3cb492ce966bb139ef.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Calle Cava Baja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_328f8e646c5c45779084615c957ed552 = L.circle(
+                [40.42287376033453, -3.6975281620001677],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_328f8e646c5c45779084615c957ed552.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bodegas Ángel Sierra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_516149ccabcd4acf873b30d7edf44166 = L.circle(
+                [40.408681, -3.699401],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_516149ccabcd4acf873b30d7edf44166.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Cafe De Ratas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_fb5e0ba12ce646f8a4edca2c9faaca5e = L.circle(
+                [40.411716, -3.7030745],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_fb5e0ba12ce646f8a4edca2c9faaca5e.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Rincón del Cabo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d6ff8295292f4cf89f05096100e5da8b = L.circle(
+                [40.43730361670695, -3.6995536687833104],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_d6ff8295292f4cf89f05096100e5da8b.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Fide
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_43fea8fb527b49ec97b0f68cf58e4859 = L.circle(
+                [40.42379346941713, -3.7017755010828473],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_43fea8fb527b49ec97b0f68cf58e4859.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bodega La Ardosa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e99d93687d5b4576b9ed0fbaf0b89003 = L.circle(
+                [40.428842, -3.703405],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e99d93687d5b4576b9ed0fbaf0b89003.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Varsovia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4e323c0f45e24bfc8014eb5861e1c676 = L.circle(
+                [40.42610213289051, -3.6981758494799846],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_4e323c0f45e24bfc8014eb5861e1c676.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Macera Tallerbar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e81368a4f7b54a949f83730d0fc9e2ce = L.circle(
+                [40.40883903772986, -3.69896987453071],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e81368a4f7b54a949f83730d0fc9e2ce.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bar San Lorenzo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_dc8565c1562f4dad82381d906fc29a03 = L.circle(
+                [40.41070296766803, -3.6994343822345925],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_dc8565c1562f4dad82381d906fc29a03.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Gato Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6361503a52b347458ae7894daadc63de = L.circle(
+                [40.4360157987124, -3.699183776495271],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_6361503a52b347458ae7894daadc63de.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Roll Station
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_331d4bee2bed400db8cf4951c0eba0ca = L.circle(
+                [40.45241305959108, -3.7070186724117242],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_331d4bee2bed400db8cf4951c0eba0ca.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Cervecería Polar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ef938e20fc4448bab8b900e6048a3880 = L.circle(
+                [40.40646464242617, -3.701418145135369],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_ef938e20fc4448bab8b900e6048a3880.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Taberna Alabanda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_cc92687021d849e1b5be18663eb650cb = L.circle(
+                [40.42454417505237, -3.698087995384402],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_cc92687021d849e1b5be18663eb650cb.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Areia Chill Out
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_75bcda38d9944d538d74488b406595b1 = L.circle(
+                [40.4107043271976, -3.6980897424051076],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_75bcda38d9944d538d74488b406595b1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Benteveo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_98e4dd4ab479439a86c1605e86535c38 = L.circle(
+                [40.43264832487213, -3.697209439008284],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_98e4dd4ab479439a86c1605e86535c38.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Contenta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_6e09e20bc7a3438fa8faa2e27fb60bfe = L.circle(
+                [40.425619400658476, -3.7049740713766557],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_6e09e20bc7a3438fa8faa2e27fb60bfe.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Coco Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8c1c381dd75a464ea3351bd83f6494f1 = L.circle(
+                [40.43962617493617, -3.6992091433428738],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_8c1c381dd75a464ea3351bd83f6494f1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Fide
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f84dc136452c4661a66a4a1f181b0947 = L.circle(
+                [40.41539131651827, -3.709070964887928],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_f84dc136452c4661a66a4a1f181b0947.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Hora del Vermut
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7d7f136c18474dc894b03a26bcaf248b = L.circle(
+                [40.4141006334226, -3.700075589869531],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_7d7f136c18474dc894b03a26bcaf248b.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Parnasillo del Príncipe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a5269e6619bc49efa60e05db74d0f189 = L.circle(
+                [40.407524000991984, -3.7039529116536887],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_a5269e6619bc49efa60e05db74d0f189.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Rincón Guay
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_db7050142d7f47499cf0b9e39be31709 = L.circle(
+                [40.40827840078169, -3.6994783687656776],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_db7050142d7f47499cf0b9e39be31709.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Playa de Lavapies
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_2b92ab28ff9348ecb3767d8c78fa4770 = L.circle(
+                [40.42120349793444, -3.7054146257911595],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_2b92ab28ff9348ecb3767d8c78fa4770.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>NEXT LEVEL Arcade BAR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_914070ead9c74533a63fdbd078fc6239 = L.circle(
+                [40.4285263969567, -3.670700092788735],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_914070ead9c74533a63fdbd078fc6239.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Entre Cáceres y Badajoz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0ecdc0a678c54efbbe67b25c92ef31b3 = L.circle(
+                [40.434422002047384, -3.6590188661582883],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_0ecdc0a678c54efbbe67b25c92ef31b3.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Manduca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e0176f5aa10440db8736098466978638 = L.circle(
+                [40.42574893675698, -3.703573307689956],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e0176f5aa10440db8736098466978638.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Ocean Rock Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7f5f1e625714454493162f783d92095f = L.circle(
+                [40.42498557232842, -3.654087440976595],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_7f5f1e625714454493162f783d92095f.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Fornía
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7faf5d7d2a4543408777f981420c9524 = L.circle(
+                [40.43726454011188, -3.650480664607106],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_7faf5d7d2a4543408777f981420c9524.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Cervecería Olivares
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4212f60591694f6aa4b6e29247f7d18f = L.circle(
+                [40.42212279165881, -3.7025909845617453],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_4212f60591694f6aa4b6e29247f7d18f.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Café de la Luz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5cf31d66d71643c1b0e9eaf2179687fd = L.circle(
+                [40.43642507036786, -3.644408334145584],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_5cf31d66d71643c1b0e9eaf2179687fd.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Callejón de Álvarez Gato
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4badcefbdb6d499e975cad7fe77e7197 = L.circle(
+                [40.43176391882853, -3.6505245188994344],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_4badcefbdb6d499e975cad7fe77e7197.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>A'Conchiña
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a52a0998bfa9419ca1efcb1e99d1a3c1 = L.circle(
+                [40.422313, -3.6959436],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_a52a0998bfa9419ca1efcb1e99d1a3c1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Only YOU Hotel&Lounge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5f808c31aa5e4d02a90c78a36659b76f = L.circle(
+                [40.42043470417075, -3.6765640741828016],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_5f808c31aa5e4d02a90c78a36659b76f.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Castela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_49b87797a8124a56ad90d74f094b6775 = L.circle(
+                [40.389973, -3.692054],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_49b87797a8124a56ad90d74f094b6775.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Cervecera de Embajadores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3b243abf1fcf410b9a39a7cb73e50887 = L.circle(
+                [40.420447280956324, -3.6889526380636446],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_3b243abf1fcf410b9a39a7cb73e50887.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Ramsés
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0524be3a21a1480c8474690a3ccbde05 = L.circle(
+                [40.4371984, -3.699074900000028],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_0524be3a21a1480c8474690a3ccbde05.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Sainete
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_de22caa2c1594adfa3941b5c7ec3c413 = L.circle(
+                [40.40869322616982, -3.6522424552011725],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_de22caa2c1594adfa3941b5c7ec3c413.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bar Gredos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8fc8c63fe21a465686009b60cffe970b = L.circle(
+                [40.42535219968041, -3.7037148472702186],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_8fc8c63fe21a465686009b60cffe970b.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Vacaciones
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1448b509fb904759abf72b9730528800 = L.circle(
+                [40.47639080959681, -3.7180565261557508],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_1448b509fb904759abf72b9730528800.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Tie break
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d6f83cd42d2647a9aa159ffd85d5d0b4 = L.circle(
+                [40.42378960159269, -3.7022626514465546],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_d6f83cd42d2647a9aa159ffd85d5d0b4.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Bicicleta Café
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e773c2dd73de44c9912ccfc87e04d2ce = L.circle(
+                [40.4161438650945, -3.702050372021179],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e773c2dd73de44c9912ccfc87e04d2ce.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>O'Reilly's
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_674b063919254b1792be0928605adf17 = L.circle(
+                [40.41419116034119, -3.698742203338637],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_674b063919254b1792be0928605adf17.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Piola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9a946036211e4176a74f5db467876d74 = L.circle(
+                [40.401935, -3.708241],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_9a946036211e4176a74f5db467876d74.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Pryce Cafe
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9080fe614c164c0e9a4040af0aed1f77 = L.circle(
+                [40.38750679000056, -3.761542233665668],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_9080fe614c164c0e9a4040af0aed1f77.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Punto de Encuentro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_a384585aae9545cea85b2d2d343ed776 = L.circle(
+                [40.41153006215496, -3.7016618966301484],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_a384585aae9545cea85b2d2d343ed776.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Candela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d11696d642fe47418a279904849aada1 = L.circle(
+                [40.41015211180619, -3.7063668093387503],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_d11696d642fe47418a279904849aada1.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Café Pavón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c77a518d8bc84622aabda42c0598aaf9 = L.circle(
+                [40.420206995804506, -3.6979471668178476],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_c77a518d8bc84622aabda42c0598aaf9.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Sidrería El Tigre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3e7654d57341443392d98ea0b539c20e = L.circle(
+                [40.409011239210265, -3.700469434261322],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_3e7654d57341443392d98ea0b539c20e.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Pianola Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_309af85b49114f9cb0059ff82560dbb3 = L.circle(
+                [40.43791464602439, -3.6994044892866325],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_309af85b49114f9cb0059ff82560dbb3.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Sala de Despiece
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ab9e8fd8084b4fc6aeb462f689bcf413 = L.circle(
+                [40.448603974738745, -3.6613612850196886],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_ab9e8fd8084b4fc6aeb462f689bcf413.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Quinta Criolla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_24d4f84b8add481ca4f4901e6a51d200 = L.circle(
+                [40.436214830853544, -3.6457741323988624],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_24d4f84b8add481ca4f4901e6a51d200.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Mayser
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e3597927b49d4e9baac9b35180684cf9 = L.circle(
+                [40.469887673276844, -3.6864907402155267],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e3597927b49d4e9baac9b35180684cf9.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Dala's Cervecería Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0dfd2e28e257491b8b5e39adcf0738c4 = L.circle(
+                [40.39227020881504, -3.697500228881836],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_0dfd2e28e257491b8b5e39adcf0738c4.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Matadero Madrid
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_449e92f21fab4be9886e70355507f524 = L.circle(
+                [40.40975290952304, -3.700991283915054],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_449e92f21fab4be9886e70355507f524.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Melo's Café Bar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1e2bd47fb441468186d2822aca0f13e6 = L.circle(
+                [40.43409885880852, -3.7173560151446523],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_1e2bd47fb441468186d2822aca0f13e6.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Chapandaz
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8c182e49215c4cc188ed94415325ade5 = L.circle(
+                [40.42535206446721, -3.703781233024551],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_8c182e49215c4cc188ed94415325ade5.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Rincón
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bf6a52cffee346159e3dfc09911d95a5 = L.circle(
+                [40.379047781574165, -3.7801645165654394],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_bf6a52cffee346159e3dfc09911d95a5.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Rueda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3358f8f53e364a21b1b363c921c251f7 = L.circle(
+                [40.42288279065907, -3.7032084227445803],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_3358f8f53e364a21b1b363c921c251f7.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Pescadería
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eccfa8db5e8540d09d151ee1bc23fe7c = L.circle(
+                [40.411135324189495, -3.699521331741858],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_eccfa8db5e8540d09d151ee1bc23fe7c.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Sur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_8dec0a93dd4a432aa1e55edf45efcfd8 = L.circle(
+                [40.42547618019526, -3.7043642238817385],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_8dec0a93dd4a432aa1e55edf45efcfd8.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Colmada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_bdc2abbe121443c5aa908b05c7a25e2a = L.circle(
+                [40.436629491139485, -3.793582375766092],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_bdc2abbe121443c5aa908b05c7a25e2a.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Frontera - Pozuelo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_e7d6d60321cc4b34a703b91ab01f5757 = L.circle(
+                [40.42837894279226, -3.6354357061020797],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_e7d6d60321cc4b34a703b91ab01f5757.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>El Rincon De Ana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c6f963e0f07946388f44980d15e79144 = L.circle(
+                [40.46425938024476, -3.6481375720974336],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_c6f963e0f07946388f44980d15e79144.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Asturias Restaurante
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1b8f5ff48bed42ffa936da5b3c3c2f3c = L.circle(
+                [40.41273870787581, -3.711678450125613],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_1b8f5ff48bed42ffa936da5b3c3c2f3c.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Café Bar Delic
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_0b05b3c3ec0c40bcbfdbd997a5d09f29 = L.circle(
+                [40.41360846476031, -3.6955656809805135],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_0b05b3c3ec0c40bcbfdbd997a5d09f29.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Los Gatos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_5b68154c54fa4f39855ac3ed589f67b6 = L.circle(
+                [40.41227536098442, -3.69798791617441],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_5b68154c54fa4f39855ac3ed589f67b6.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Fogg Birra and Cheese
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_3bc8aba881674234952ffb121f04a3d0 = L.circle(
+                [40.50425332634408, -3.7030056378229523],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_3bc8aba881674234952ffb121f04a3d0.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Taberna Chupi Lerendi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_eb0eab1eb5cc485dbb012c14cba5b483 = L.circle(
+                [40.40654802069423, -3.6502399962615493],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_eb0eab1eb5cc485dbb012c14cba5b483.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bare Nostrum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_abdf291c04a54f7babcfeb85c35b6d0c = L.circle(
+                [40.43637448083947, -3.6234616755534557],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_abdf291c04a54f7babcfeb85c35b6d0c.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Taberna de Yuste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_46b1676146814152932eb25ceb5bad77 = L.circle(
+                [40.41937153198512, -3.706036221579081],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_46b1676146814152932eb25ceb5bad77.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Central de Callao
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_54a59493d36346119c73d0d803810b54 = L.circle(
+                [40.41035077046774, -3.707418488951897],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_54a59493d36346119c73d0d803810b54.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La China Mandarina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c45c8b833e9145c39917e6d0035f0541 = L.circle(
+                [40.3860394367279, -3.649360937707864],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_c45c8b833e9145c39917e6d0035f0541.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bar Las Cervecitas (Santi)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_c249bf8090d5409b88b4eae7675cf79f = L.circle(
+                [40.46517968194474, -3.629845183782912],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_c249bf8090d5409b88b4eae7675cf79f.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Cerveceria Burgos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_7f4bf67873db4bb4bcee0a3044f498f5 = L.circle(
+                [40.42680387444541, -3.702931469216806],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_7f4bf67873db4bb4bcee0a3044f498f5.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>La Vía Láctea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_b0839b104353460d98ef9ed178416917 = L.circle(
+                [40.37886517928581, -3.7795148888288717],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_b0839b104353460d98ef9ed178416917.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Kani's
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_1cee9987090843b1b7c0f6d24047b7d7 = L.circle(
+                [40.4857561141955, -3.656366986739988],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_1cee9987090843b1b7c0f6d24047b7d7.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>DeTres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_37eb665926574c10b9a049c4b3e7f9a9 = L.circle(
+                [40.426141864460845, -3.7073716314199663],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_37eb665926574c10b9a049c4b3e7f9a9.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Carmencita
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_d87a65ee022f4ddeb3d493c14b94d94a = L.circle(
+                [40.45942247515492, -3.6503367113302323],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50, "stroke": true, "weight": 3}
+            ).addTo(feature_group_c790d0bef4db4129add8bf5cfb45ac35);
+        
+    
+            circle_d87a65ee022f4ddeb3d493c14b94d94a.bindTooltip(
+                `<div>
+                     <b>Bar: <br></b>Bar Palermo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_908176ff972d486a924708bbbb9ca4c1 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_974c4d1b2d4748d78b4f13969b228a9b,
+                },
+                overlays :  {
+                    "Vegan restaurant" : feature_group_a04194731e55404dbb5bf751620b04bc,
+                    "Starbucks" : feature_group_f17542e631624d4bb7de21a08c2f9c2c,
+                    "Daycare" : feature_group_ac130789e38a49d9ad07f935566f1a2d,
+                    "Basketball arena" : feature_group_d77290706e8e449e9a42e7a6a40e4c1e,
+                    "Bar" : feature_group_c790d0bef4db4129add8bf5cfb45ac35,
+                },
+            };
+            L.control.layers(
+                layer_control_908176ff972d486a924708bbbb9ca4c1.base_layers,
+                layer_control_908176ff972d486a924708bbbb9ca4c1.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_c12972a6a86b43db9d515f2551e94c24);
+        
+</script>
