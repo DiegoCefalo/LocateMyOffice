@@ -182,6 +182,8 @@ def mapamatico(coords,nombre):
     add_layer('Daycare','green',mapa,guarderia)
     add_layer('Basketball arena','purple',mapa,basketball)
     add_layer('Bar','black',mapa,bar)
+    centro = folium.FeatureGroup(name='Centro')
+    centro.add_child(folium.Marker(location = coords, tooltip="Centro")).add_to(mapa)
     folium.LayerControl(collapsed=False).add_to(mapa)
     mapa.save(f'{nombre}')
     return mapa
